@@ -1,0 +1,22 @@
+{
+    "workbench.colorTheme": "Visual Studio Dark - C++",
+    "security.workspace.trust.untrustedFiles": "open",
+    "git.openRepositoryInParentFolders": "always",
+    "editor.fontSize": 15,
+    "editor.fontFamily": "Victor Mono,Consolas, 'Courier New', monospace",
+    "window.zoomLevel": -1,
+    "sundial.daySettings": {
+
+
+
+    },
+    "workbench.preferredDarkColorTheme": "Tomorrow Night Blue",
+    "workbench.preferredLightColorTheme": "Visual Studio Dark - C++",
+    "cmake.showOptionsMovedNotification": false,
+    "codestats.apikey": "SFMyNTY.WjNKdmRYUnNiRzk1WkE9PSMjTWpJMU56QT0.iLEQ-cqd3IwbpegIb-iAFWZm0cUUHBJspb77snvjg08",
+    "codestats.username": "groutlloyd",
+    "workbench.activityBar.location": "hidden",
+    "window.menuBarVisibility": "compact",
+    "window.customTitleBarVisibility": "never",
+    "window.commandCenter": false
+}
