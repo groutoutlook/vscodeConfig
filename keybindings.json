@@ -32,7 +32,7 @@
         "command": "-workbench.action.closeWindow"
     },
     {
-        "key": "ctrl+k ctrl+v",
+        "key": "alt+x alt+p",
         "command": "markdown.showPreviewToSide",
         "when": "!notebookEditorFocused && editorLangId == 'markdown'"
     },
@@ -115,5 +115,9 @@
     {
         "key": "ctrl+=",
         "command": "-workbench.action.zoomIn"
+    },
+    {
+        "key": "ctrl+shift+alt+enter",
+        "command": "editor.action.openLink"
     }
 ]
