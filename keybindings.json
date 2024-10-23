@@ -132,5 +132,44 @@
   {
     "key": "ctrl+w ctrl+w",
     "command": "workbench.action.focusNextGroup"
+  },
+  {
+    "key": "ctrl+shift+win+z",
+    "command": "vscode-neovim.stop"
+  },
+  {
+    "key": "ctrl+shift+win+x",
+    "command": "vscode-neovim.restart"
+  },
+  {
+    "key": "ctrl+w ctrl+c",
+    "command": "edit-csv.edit",
+    "when": "resourceExtname == '.csv'"
+  },
+  {
+    "key": "ctrl+w ctrl+]",
+    "command": "workbench.action.moveActiveEditorGroupRight"
+  },
+  {
+    "key": "ctrl+k right",
+    "command": "-workbench.action.moveActiveEditorGroupRight"
+  },
+  {
+    "key": "ctrl+w ctrl+[",
+    "command": "workbench.action.moveActiveEditorGroupLeft"
+  },
+  {
+    "key": "ctrl+k left",
+    "command": "-workbench.action.moveActiveEditorGroupLeft"
+  },
+  {
+    "key": "ctrl+m ctrl+m",
+    "command": "editor.toggleFold",
+    "when": "editorTextFocus && foldingEnabled"
+  },
+  {
+    "key": "ctrl+k ctrl+l",
+    "command": "-editor.toggleFold",
+    "when": "editorTextFocus && foldingEnabled"
   }
 ]

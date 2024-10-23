@@ -79,5 +79,6 @@
     "down",
     "backspace",
     "delete"
-  ]
+  ],
+  "python.defaultInterpreterPath": "C:\\Users\\COHOTECH\\scoop\\apps\\python\\current\\python.exe"
 }
