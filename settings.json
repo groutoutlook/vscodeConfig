@@ -80,5 +80,8 @@
     "backspace",
     "delete"
   ],
-  "python.defaultInterpreterPath": "C:\\Users\\COHOTECH\\scoop\\apps\\python\\current\\python.exe"
+  "python.defaultInterpreterPath": "C:\\Users\\COHOTECH\\scoop\\apps\\python\\current\\python.exe",
+  "clangd.detectExtensionConflicts": false,
+  "terminal.explorerKind": "external",
+  "terminal.external.windowsExec": "wt"
 }

@@ -93,7 +93,7 @@
     "command": "workbench.action.navigateBack"
   },
   {
-    "key": "shift+alt+=",
+    "key": "ctrl+shift+numpad_divide",
     "command": "workbench.action.zoomOut"
   },
   {
@@ -147,16 +147,8 @@
     "when": "resourceExtname == '.csv'"
   },
   {
-    "key": "ctrl+w ctrl+]",
-    "command": "workbench.action.moveActiveEditorGroupRight"
-  },
-  {
     "key": "ctrl+k right",
     "command": "-workbench.action.moveActiveEditorGroupRight"
-  },
-  {
-    "key": "ctrl+w ctrl+[",
-    "command": "workbench.action.moveActiveEditorGroupLeft"
   },
   {
     "key": "ctrl+k left",
@@ -171,5 +163,69 @@
     "key": "ctrl+k ctrl+l",
     "command": "-editor.toggleFold",
     "when": "editorTextFocus && foldingEnabled"
+  },
+  {
+    "key": "ctrl+shift+alt+win+e",
+    "command": "jp-katohirohito-extension-vscode-minmax-in-csv.highlightNumbers"
+  },
+  {
+    "key": "ctrl+shift+e",
+    "command": "-jp-katohirohito-extension-vscode-minmax-in-csv.highlightNumbers"
+  },
+  {
+    "key": "ctrl+w ctrl+[",
+    "command": "workbench.action.moveEditorToNextGroup"
+  },
+  {
+    "key": "ctrl+alt+right",
+    "command": "-workbench.action.moveEditorToNextGroup"
+  },
+  {
+    "key": "ctrl+w ctrl+]",
+    "command": "workbench.action.moveEditorToPreviousGroup"
+  },
+  {
+    "key": "ctrl+alt+left",
+    "command": "-workbench.action.moveEditorToPreviousGroup"
+  },
+  {
+    "key": "ctrl+w ctrl+p",
+    "command": "copyFilePath",
+    "when": "!editorFocus"
+  },
+  {
+    "key": "shift+alt+c",
+    "command": "-copyFilePath",
+    "when": "!editorFocus"
+  },
+  {
+    "key": "ctrl+w ctrl+p",
+    "command": "copyFilePath",
+    "when": "editorFocus"
+  },
+  {
+    "key": "shift+alt+c",
+    "command": "-copyFilePath",
+    "when": "editorFocus"
+  },
+  {
+    "key": "ctrl+shift+-",
+    "command": "-workbench.action.zoomOut"
+  },
+  {
+    "key": "ctrl+shift+-",
+    "command": "workbench.action.navigateToLastEditLocation"
+  },
+  {
+    "key": "ctrl+k ctrl+q",
+    "command": "-workbench.action.navigateToLastEditLocation"
+  },
+  {
+    "key": "ctrl+w ctrl+n",
+    "command": "workbench.action.moveEditorToNewWindow"
+  },
+  {
+    "key": "ctrl+z",
+    "command": "-arm-debugger.undoCommand"
   }
 ]
