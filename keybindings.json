@@ -227,5 +227,53 @@
   {
     "key": "ctrl+z",
     "command": "-arm-debugger.undoCommand"
+  },
+  {
+    "key": "ctrl+shift+f",
+    "command": "-extension.icpp.fire",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+\\ ctrl+c",
+    "command": "workbench.panel.chat",
+    "when": "workbench.panel.chat.view.copilot.active"
+  },
+  {
+    "key": "ctrl+\\ ctrl+c",
+    "command": "workbench.panel.chat",
+    "when": "workbench.panel.chat.view.copilot.active"
+  },
+  {
+    "key": "ctrl+\\ ctrl+c",
+    "command": "workbench.action.chat.open"
+  },
+  {
+    "key": "ctrl+k ctrl+a",
+    "command": "selectby.swapActive"
+  },
+  {
+    "key": "ctrl+k ctrl+a",
+    "command": "-keybindings.editor.addKeybinding",
+    "when": "inKeybindings && keybindingFocus"
+  },
+  {
+    "key": "ctrl+[",
+    "command": "-editor.action.outdentLines",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+]",
+    "command": "editor.action.jumpToBracket",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+shift+\\",
+    "command": "-editor.action.jumpToBracket",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+]",
+    "command": "-editor.action.indentLines",
+    "when": "editorTextFocus && !editorReadonly"
   }
 ]
