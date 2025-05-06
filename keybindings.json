@@ -101,7 +101,7 @@
     "command": "-workbench.action.zoomOut"
   },
   {
-    "key": "shift+alt+-",
+    "key": "ctrl+shift+numpad_subtract",
     "command": "workbench.action.zoomIn"
   },
   {
@@ -279,5 +279,9 @@
   {
     "key": "ctrl+w ctrl+shift+q",
     "command": "workbench.action.closeOtherEditors"
+  },
+  {
+    "key": "ctrl+numpad_add",
+    "command": "-workbench.action.zoomIn"
   }
 ]
