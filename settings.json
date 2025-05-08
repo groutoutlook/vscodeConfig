@@ -96,5 +96,8 @@
 	"openscad.launchPath": "C:/Users/COHOTECH/scoop/apps/openscad/current/openscad.exe",
 	"editor.accessibilitySupport": "on",
 	"GitLive.Special branches": "main|master|trunk|dev|develop|qa|test|release[-/].*",
-	"powershell.promptToUpdatePowerShell": false
+	"powershell.promptToUpdatePowerShell": false,
+	"files.associations": {
+		"*.vpy": "python"
+	}
 }
