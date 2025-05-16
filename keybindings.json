@@ -173,16 +173,8 @@
     "command": "-jp-katohirohito-extension-vscode-minmax-in-csv.highlightNumbers"
   },
   {
-    "key": "ctrl+w ctrl+[",
-    "command": "workbench.action.moveEditorToNextGroup"
-  },
-  {
     "key": "ctrl+alt+right",
     "command": "-workbench.action.moveEditorToNextGroup"
-  },
-  {
-    "key": "ctrl+w ctrl+]",
-    "command": "workbench.action.moveEditorToPreviousGroup"
   },
   {
     "key": "ctrl+alt+left",
@@ -296,5 +288,33 @@
   {
     "key": "ctrl+shift+, ctrl+shift+k",
     "command": "workbench.action.openGlobalKeybindingsFile"
+  },
+  {
+    "key": "ctrl+shift+, ctrl+shift+,",
+    "command": "workbench.action.openSettingsJson"
+  },
+  {
+    "key": "ctrl+w ctrl+shift+\\",
+    "command": "workbench.action.duplicateActiveEditorGroupRight"
+  },
+  {
+    "key": "ctrl+w ctrl+\\",
+    "command": "workbench.action.duplicateActiveEditorGroupDown"
+  },
+  {
+    "key": "ctrl+w ctrl+[",
+    "command": "workbench.action.moveEditorToLeftGroup"
+  },
+  {
+    "key": "ctrl+w ctrl+]",
+    "command": "workbench.action.moveEditorToRightGroup"
+  },
+  {
+    "key": "ctrl+w ctrl+e",
+    "command": "editor.action.toggleWordWrap"
+  },
+  {
+    "key": "alt+z",
+    "command": "-editor.action.toggleWordWrap"
   }
 ]
