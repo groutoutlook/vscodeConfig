@@ -316,5 +316,17 @@
   {
     "key": "alt+z",
     "command": "-editor.action.toggleWordWrap"
+  },
+  {
+    "key": "ctrl+r ctrl+v",
+    "command": "rainbow-csv.VirtualAlign"
+  },
+  {
+    "key": "ctrl+r ctrl+shift+v",
+    "command": "rainbow-csv.VirtualShrink"
+  },
+  {
+    "key": "ctrl+shift+k ctrl+shift+k",
+    "command": "getContextKeyInfo"
   }
 ]
