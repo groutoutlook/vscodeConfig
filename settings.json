@@ -1,5 +1,4 @@
 {
-	"workbench.colorTheme": "Visual Studio Dark",
 	"security.workspace.trust.untrustedFiles": "open",
 	"git.openRepositoryInParentFolders": "always",
 	"editor.fontSize": 15,
@@ -38,54 +37,13 @@
 		"editor.semanticHighlighting.enabled": true,
 		"editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd"
 	},
-	"vscode-neovim.NVIM_APPNAME": "nvim-vscode",
 	"extensions.experimental.affinity": {
 		"asvetliakov.vscode-neovim": 1
 	},
-	"vscode-neovim.ctrlKeysForInsertMode": [
-		"a",
-		"d",
-		"h",
-		"j",
-		"m",
-		"r",
-		"t",
-		"u"
-	],
 	"workbench.startupEditor": "none",
 	"[jsonc]": {
 		"editor.defaultFormatter": "vscode.json-language-features"
 	},
-	"vscode-neovim.ctrlKeysForNormalMode": [
-		"a",
-		"b",
-		"c",
-		"d",
-		"e",
-		"f",
-		"h",
-		"i",
-		"j",
-		"k",
-		"l",
-		"m",
-		"o",
-		"r",
-		"t",
-		"u",
-		"v",
-		"x",
-		"y",
-		"z",
-		"/",
-		"]",
-		"right",
-		"left",
-		"up",
-		"down",
-		"backspace",
-		"delete"
-	],
 	"python.defaultInterpreterPath": "C:\\Users\\COHOTECH\\scoop\\apps\\python\\current\\python.exe",
 	"clangd.detectExtensionConflicts": false,
 	"terminal.explorerKind": "external",
@@ -108,5 +66,15 @@
 	"clangd.path": "C:/Users/COHOTECH/scoop/apps/llvm/current/bin/clangd",
 	"chat.commandCenter.enabled": false,
 	"window.density.editorTabHeight": "compact",
+	"workbench.layoutControl.enabled": false,
+	"rainbow_csv.highlight_rows": true,
+	"[csv]": {
+		"editor.inlayHints.maximumLength": 0
+	},
+	"editor.renderWhitespace": "none",
+	"[csv (semicolon)]": {
+		"editor.inlayHints.maximumLength": 0
+	},
+	"rainbow_csv.virtual_alignment_mode": "always",
 	//"vscode_custom_css.imports": ["file:///C://Users//COHOTECH//AppData//Roaming//Code//User//custom.css"]
 }
