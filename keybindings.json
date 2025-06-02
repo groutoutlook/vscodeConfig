@@ -240,7 +240,7 @@
     "command": "workbench.action.chat.open"
   },
   {
-    "key": "ctrl+k ctrl+a",
+    "key": "ctrl+w ctrl+a",
     "command": "selectby.swapActive"
   },
   {
@@ -316,5 +316,132 @@
   {
     "key": "alt+z",
     "command": "-editor.action.toggleWordWrap"
+  },
+  {
+    "key": "ctrl+w ctrl+e",
+    "command": "rainbow-csv.VirtualAlign"
+  },
+  {
+    "key": "ctrl+r ctrl+shift+v",
+    "command": "rainbow-csv.VirtualShrink"
+  },
+  {
+    "key": "ctrl+shift+k ctrl+shift+k",
+    "command": "getContextKeyInfo"
+  },
+  {
+    "key": "ctrl+alt+left",
+    "command": "cursorWordPartLeft",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+left",
+    "command": "-cursorWordPartLeft",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+shift+alt+left",
+    "command": "cursorWordPartLeftSelect",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+shift+left",
+    "command": "-cursorWordPartLeftSelect",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+alt+right",
+    "command": "cursorWordPartRight",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+right",
+    "command": "-cursorWordPartRight",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+shift+alt+right",
+    "command": "cursorWordPartRightSelect",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+shift+right",
+    "command": "-cursorWordPartRightSelect",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+shift+alt+backspace",
+    "command": "deleteWordPartRight",
+    "when": "textInputFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+shift+backspace",
+    "command": "-deleteWordPartRight",
+    "when": "textInputFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+alt+backspace",
+    "command": "deleteWordPartLeft",
+    "when": "textInputFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+backspace",
+    "command": "-deleteWordPartLeft",
+    "when": "textInputFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+alt+k",
+    "command": "-bookmark.commands.toggleBookmark",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+k ctrl+n",
+    "command": "bookmark.gotoNextBookmark"
+  },
+  {
+    "key": "ctrl+alt+l",
+    "command": "-bookmark.gotoNextBookmark"
+  },
+  {
+    "key": "ctrl+k ctrl+p",
+    "command": "bookmark.gotoPreviousBookmark"
+  },
+  {
+    "key": "ctrl+alt+j",
+    "command": "-bookmark.gotoPreviousBookmark"
+  },
+  {
+    "key": "ctrl+k ctrl+n",
+    "command": "bookmarks.jumpToNext",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+alt+l",
+    "command": "-bookmarks.jumpToNext",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+k ctrl+p",
+    "command": "bookmarks.jumpToPrevious",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+alt+j",
+    "command": "-bookmarks.jumpToPrevious",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+k ctrl+k",
+    "command": "bookmarks.toggle",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+alt+k",
+    "command": "-bookmarks.toggle",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+k ctrl+w",
+    "command": "bookmarks.listFromAllFiles"
   }
 ]
