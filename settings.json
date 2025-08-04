@@ -50,9 +50,6 @@
 		"editor.semanticHighlighting.enabled": true,
 		"editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd"
 	},
-	"extensions.experimental.affinity": {
-		"asvetliakov.vscode-neovim": 1
-	},
 	"workbench.startupEditor": "none",
 	"[jsonc]": {
 		"editor.defaultFormatter": "vscode.json-language-features"
@@ -76,6 +73,8 @@
 	"files.associations": {
 		"*.vpy": "python"
 	},
+    "files.encoding": "utf8bom",
+    "files.autoGuessEncoding": true,
 	"clangd.path": "C:/Users/COHOTECH/scoop/apps/llvm/current/bin/clangd.EXE",
 	"chat.commandCenter.enabled": false,
 	"window.density.editorTabHeight": "compact",
@@ -98,5 +97,19 @@
 		"--port=8090"
 	],
 	"mpls.shutdownWhenAllClosed": false,
+    "powershell.powerShellAdditionalExePaths": {
+        "Downloaded PowerShell": "C://Program Files//PowerShell//7-preview//pwsh.EXE",
+    },
+	"powershell.powerShellDefaultVersion": "Downloaded PowerShell",
+	"workbench.colorTheme": "Visual Studio Dark - C++",
+	"[tsv]": {
+		"editor.inlayHints.maximumLength": 0
+	},
+	"workbench.iconTheme": "material-icon-theme",
+	"extensions.experimental.affinity": {
+	  "jasew.vscode-helix-emulation": 1
+	},
+	"github.copilot.nextEditSuggestions.enabled": true,
+	"github.copilot.selectedCompletionModel": ""
 	//"vscode_custom_css.imports": ["file:///C://Users//COHOTECH//AppData//Roaming//Code//User//custom.css"]
 }

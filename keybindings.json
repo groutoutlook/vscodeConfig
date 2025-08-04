@@ -2,7 +2,7 @@
 // "-" is the disabled (default) keymap.
 [
   {
-    "key": "ctrl+w",
+    "key": "+w",
     "command": "-workbench.action.closeGroup",
     "when": "activeEditorGroupEmpty && multipleEditorGroups"
   },
@@ -240,7 +240,7 @@
     "command": "workbench.action.chat.open"
   },
   {
-    "key": "ctrl+w ctrl+a",
+    "key": "alt+; alt+;",
     "command": "selectby.swapActive"
   },
   {
@@ -345,11 +345,6 @@
     "when": "textInputFocus"
   },
   {
-    "key": "ctrl+shift+left",
-    "command": "-cursorWordPartLeftSelect",
-    "when": "textInputFocus"
-  },
-  {
     "key": "ctrl+alt+right",
     "command": "cursorWordPartRight",
     "when": "textInputFocus"
@@ -443,5 +438,91 @@
   {
     "key": "ctrl+k ctrl+w",
     "command": "bookmarks.listFromAllFiles"
-  }
+  },
+  {
+    "key": "ctrl+\\ ctrl+]",
+    "command": "merge.acceptAllInput2"
+  },
+  {
+    "key": "ctrl+\\ ctrl+[",
+    "command": "merge.acceptAllInput1"
+  },
+  {
+    "key": "ctrl+\\ ctrl+enter",
+    "command": "git.acceptMerge"
+  },
+  {
+    "key": "ctrl+\\ ctrl+\\",
+    "command": "merge-conflict.next"
+  },
+  {
+    "key": "alt+x alt+x",
+    "command": "workbench.action.terminal.runSelectedText"
+  },
+  {
+    "key": "shift+enter",
+    "command": "PowerShell.RunSelection",
+    "when": "editorTextFocus && editorLangId == 'powershell'"
+  },
+  {
+    "key": "f8",
+    "command": "-PowerShell.RunSelection",
+    "when": "editorTextFocus && editorLangId == 'powershell'"
+  },
+  {
+    "key": "ctrl+shift+s",
+    "command": "-workbench.action.files.saveAs"
+  },
+  {
+    "key": "ctrl+shift+s",
+    "command": "-workbench.action.files.saveAll"
+  },
+  {
+    "key": "ctrl+shift+s",
+    "command": "-workbench.action.files.saveLocalFile",
+    "when": "remoteFileDialogVisible"
+  },
+  {
+    "key": "ctrl+shift+alt+c", 
+    "command": "github.copilot.showStatusMenu"
+  },
+  {
+    "key": "ctrl+alt+, ctrl+alt+,",
+    "command": "github.copilot.openModelPicker"
+  },
+  {
+    "key": "ctrl+shift+enter",
+    "command": "workbench.action.chat.submit",
+    "when": "inChatInput"
+  },
+  {
+    "key": "enter",
+    "command": "-workbench.action.chat.submit",
+    "when": "inChatInput && chatMode == 'ask'"
+  },
+  {
+    "key": "ctrl+shift+enter",
+    "command": "-workbench.action.chat.sendToNewChat",
+    "when": "chatInputHasText && chatRequestIsPaused && inChatInput || chatInputHasText && inChatInput && !chatSessionRequestInProgress || chatPromptFileAttached && chatRequestIsPaused && inChatInput || chatPromptFileAttached && inChatInput && !chatSessionRequestInProgress"
+  },
+  {
+  "key": "ctrl+shift+.",
+  "command": "workbench.action.chat.openModelPicker",
+  "when": "chatIsEnabled && inChatInput"
+},
+{
+  "key": "ctrl+shift+alt+i",
+  "command": "workbench.action.chat.openInNewWindow",
+  "when": "chatIsEnabled"
+},
+{
+  "key": "shift+escape",
+  "command": "togglePeekWidgetFocus",
+  "when": "inReferenceSearchEditor || referenceSearchVisible"
+},
+{
+  "key": "ctrl+k f2",
+  "command": "-togglePeekWidgetFocus",
+  "when": "inReferenceSearchEditor || referenceSearchVisible"
+}
 ]
