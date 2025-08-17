@@ -524,5 +524,9 @@
   "key": "ctrl+k f2",
   "command": "-togglePeekWidgetFocus",
   "when": "inReferenceSearchEditor || referenceSearchVisible"
+},
+{
+  "key": "alt+x alt+d",
+  "command": "workbench.action.debug.selectandstart"
 }
 ]

@@ -110,6 +110,85 @@
 	  "jasew.vscode-helix-emulation": 1
 	},
 	"github.copilot.nextEditSuggestions.enabled": true,
-	"github.copilot.selectedCompletionModel": ""
+	"github.copilot.selectedCompletionModel": "",
+	"editor.glyphMargin": true,
+	"todoTomorrow.patterns": [
+
+		{
+			"keywords": [
+				"bodge",
+				"bug",
+				"hack",
+				"kludge",
+				"ugly",
+				"xxx"
+			],
+			"fontWeight": "bold",
+			"light": {
+				"color": "#4c4b4e"
+			},
+			"dark": {
+				"color": "#dcd5c0"
+			}
+		},
+		{
+			"keywords": [
+				"debug",
+				"fixme",
+				"fix",
+				"note",
+				"todo",
+				"undone",
+				"wip",
+				"info",
+				"hack"
+			],
+			"fontWeight": "bold"
+		}
+	],
+	"theCommentHighlighter.userDefinedPrefixes": [
+		
+		{
+			"prefix": "todo",
+			"color": "#a1fe00",
+			"fontStyle": "italic"
+		},
+		{
+			"prefix": "fixme",
+			"color": "#ff5555",
+			"backgroundColor": "#ff55551a",
+			"fontWeight": "bold"
+		},
+		{
+			"prefix": "idea",
+			"color": "#ffb86c",
+			"fontStyle": "italic",
+			"textDecoration": "underline"
+		},
+		{
+			"prefix": "hack",
+			"backgroundColor": "#9000ff1d",
+			"color": "#cb87ff",
+			"fontStyle": "italic",
+			"textDecoration": "underline"
+		},
+		{
+			"prefix": "ignore",
+			"color": "#ffffff54",
+			"textDecoration": "line-through"
+		},
+		{
+			"prefix": "note",
+			"fontStyle": "italic",
+			"color": "#ffffffa2"
+		},
+		{
+			"prefix": "======",
+			"color": "#ffffff",
+			"fontWeight": "bold",
+			"fontStyle": "italic"
+		}
+	],
+	"explorer.confirmDelete": false,
 	//"vscode_custom_css.imports": ["file:///C://Users//COHOTECH//AppData//Roaming//Code//User//custom.css"]
 }
