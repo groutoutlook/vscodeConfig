@@ -36,7 +36,7 @@
 	"workbench.sideBar.location": "right",
 	"editor.inlineSuggest.suppressSuggestions": true,
 	"[json]": {
-		"editor.defaultFormatter": "biomejs.biome"
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
 	"semanticdiff.defaultDiffViewer": true,
 	"semanticdiff.closeOriginalTab": true,
@@ -253,6 +253,45 @@
 			]
 		}
 	},
-	"project-notes.globalNotesFolder": "c:\\Users\\COHOTECH\\.pnotes",
+	"pnotes.projectNotesFolderLocation": "C:\\Users\\COHOTECH",
+	"pnotes.createGlobalProjectNotesGuideFile": false,
+	"diffEditor.codeLens": true,
+	"idf.hasWalkthroughBeenShown": true,
+	"chat.agent.maxRequests": 50,
+	"git.enableSmartCommit": true,
+	"chat.tools.terminal.autoApprove": {
+		"/^pwsh -NoLogo -NoProfile -ExecutionPolicy Bypass -File \\.\\\\Coor\\.Raw\\.Csv\\.ps1 -BaseName \"8m0\\.inox\\.long\\.8corner\\.25\\.64ray\"$/": {
+			"approve": true,
+			"matchCommandLine": true
+		},
+		"Import-Csv": true,
+		"/^pwsh -NoLogo -NoProfile -ExecutionPolicy Bypass -File \\.\\\\Port\\.Man\\.Csv\\.ps1 -BaseName \"8m0\\.inox\\.long\\.8corner\\.25\\.64ray\"$/": {
+			"approve": true,
+			"matchCommandLine": true
+		},
+		".\\Port.Man.Csv.ps1": true,
+		".\\verify_ports.ps1": true,
+		"Group-Object": true,
+		".\\Coor.Raw.Csv.ps1": true,
+		"/^pwsh -File d:\\\\ProgramDataD\\\\MiscLang\\\\24\\.01-PowerShell\\\\proj\\\\pwsh-star-applying-scripts\\\\test_mirror_logic\\.ps1$/": {
+			"approve": true,
+			"matchCommandLine": true
+		},
+		"msbuild": true,
+		".\\generate_font.ps1": true,
+		"Move-Item": true,
+		"Import-Module": true,
+		"Write-Error": true,
+		".\\generate_font_thin.ps1": true,
+		".\\generate_font_filled.ps1": true,
+		"/^pwsh -File d:\\\\ProgramDataD\\\\MiscLang\\\\24\\.01-PowerShell\\\\proj\\\\pwsh-asset-apply-parse\\\\test-resize\\.ps1$/": {
+			"approve": true,
+			"matchCommandLine": true
+		},
+		"Test-Path": true,
+		"make-panelLikeCoor": true,
+		"Get-Item": true,
+		"dir": true
+	},
 	//"vscode_custom_css.imports": ["file:///C://Users//COHOTECH//AppData//Roaming//Code//User//custom.css"]
 }

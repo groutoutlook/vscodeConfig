@@ -240,7 +240,7 @@
     "command": "workbench.action.chat.open"
   },
   {
-    "key": "alt+; alt+;",
+    "key": "ctrl+l ctrl+o",
     "command": "selectby.swapActive"
   },
   {
@@ -528,5 +528,37 @@
 {
   "key": "alt+x alt+d",
   "command": "workbench.action.debug.selectandstart"
+},
+{
+  "key": "ctrl+w ctrl+z",
+  "command": "workbench.action.files.revert"
+},
+{
+  "key": "ctrl+l",
+  "command": "-editor.action.clipboardCutAction",
+  "when": "editorTextFocus && !editorReadonly"
+},
+{
+  "key": "ctrl+l",
+  "command": "-expandLineSelection",
+  "when": "textInputFocus"
+},
+{
+  "key": "ctrl+l",
+  "command": "-notebook.centerActiveCell",
+  "when": "notebookEditorFocused"
+},
+{
+  "key": "ctrl+w",
+  "command": "-editor.action.smartSelect.expand",
+  "when": "editorTextFocus"
+},
+{
+  "key": "shift+alt+=",
+  "command": "expandLineSelection"
+},
+{
+  "key": "ctrl+l ctrl+r",
+  "command": "workbench.action.toggleLockedScrolling"
 }
 ]
