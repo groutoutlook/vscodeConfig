@@ -6,3 +6,7 @@ workspaceStorage/*
 
 hw
 
+mcp/*
+agent-sessions.code-workspace
+chatLanguageModels.json
+profiles
