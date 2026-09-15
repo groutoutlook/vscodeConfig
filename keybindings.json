@@ -182,7 +182,7 @@
   },
   {
     "key": "ctrl+w ctrl+p",
-    "command": "copyFilePath",
+    "command": "copy-absolute-path-with-line-number",
     "when": "!editorFocus"
   },
   {
@@ -192,7 +192,7 @@
   },
   {
     "key": "ctrl+w ctrl+p",
-    "command": "copyFilePath",
+    "command": "copy-absolute-path-with-line-number",
     "when": "editorFocus"
   },
   {
