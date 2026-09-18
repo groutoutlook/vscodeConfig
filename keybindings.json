@@ -131,7 +131,8 @@
   },
   {
     "key": "ctrl+w ctrl+w",
-    "command": "workbench.action.focusNextGroup"
+    "command": "workbench.action.focusNextGroup",
+    "when": "editorFocus"
   },
   {
     "key": "ctrl+shift+win+z",
@@ -560,5 +561,9 @@
 {
   "key": "ctrl+l ctrl+r",
   "command": "workbench.action.toggleLockedScrolling"
+},
+{
+  "key": "alt+right",
+  "command": "workbench.action.focusNextGroup"
 }
 ]
